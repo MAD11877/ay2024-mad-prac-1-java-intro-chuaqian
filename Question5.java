@@ -25,12 +25,12 @@ public class Question5 {
          */
 
         Scanner in = new Scanner(System.in);
-        System.out.print("Enter no. of integers: ");
+        //System.out.print("Enter no. of integers: ");
         int count = in.nextInt();
 
         int[] numList = new int[count];
         for (int i = 0; i < count; i++) {
-            System.out.print("Enter number: ");
+            //System.out.print("Enter number: ");
             numList[i] = in.nextInt();
         }
         int mode = numList[0]; 
@@ -51,6 +51,6 @@ public class Question5 {
             }
         }
 
-        System.out.println("Mode: " + mode);
+        System.out.println(mode);
     }
 }
