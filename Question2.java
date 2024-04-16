@@ -15,8 +15,7 @@ public class Question2
     //System.out.println("What is your weight?(kg)");
     double weight = in.nextDouble();
     double bmi = weight / (height*height);
-    String twodpbmi = String.format("%.2f", bmi);
-    System.out.println("Your bmi is: "+ twodpbmi);
+    System.out.println(bmi);
 
 
   }
