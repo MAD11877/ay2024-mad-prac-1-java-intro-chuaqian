@@ -9,8 +9,15 @@ public class Question2
      * 
      * Hint: in.nextDouble() to read double
      */
-     
+    System.out.println("What is your height?");
     Scanner in = new Scanner(System.in);
     double height = in.nextDouble();
+    System.out.println("What is your weight?(kg)");
+    double weight = in.nextDouble();
+    double bmi = weight / (height*height);
+    String twodpbmi = String.format("%.2f", bmi);
+    System.out.println("Your bmi is: "+ twodpbmi);
+
+
   }
 }
