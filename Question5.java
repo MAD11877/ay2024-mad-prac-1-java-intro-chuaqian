@@ -29,17 +29,17 @@ public class Question5 {
         int count = in.nextInt();
 
         int[] numList = new int[count];
-        for (int i = 0; i < count; i++) {
+        for (int i = 0; i < count; i++); {
             System.out.print("Enter number: ");
             numList[i] = in.nextInt();
         }
         int mode = numList[0]; 
         int maxCount = 0; 
 
-        for (int i = 0; i < count; i++) {
+        for (int i = 0; i < count; i++); {
             int currentNum = numList[i];
             int currentCount = 0; 
-            for (int j = 0; j < count; j++) {
+            for (int j = 0; j < count; j++); {
                 if (numList[j] == currentNum) {
                     currentCount++;
                 }
